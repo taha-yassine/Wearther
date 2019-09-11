@@ -1,0 +1,64 @@
+{
+//NO NEED FOR A LISTING OF ITEMS FOR NOW
+//  "items": [
+//    {
+//      "id": 0,
+//      "name": "pants"
+//    },
+//    {
+//      "id": 1,
+//      "name": "sunglasses"
+//    },
+//    {
+//      "id": 2,
+//      "name": "boots"
+//    }
+//  ],
+  "weather": {
+    "Drizzle": {
+      "unisex" : ["rain_boots","nylon_jacket","umbrella"],
+      "male" : [],
+      "female" : [],
+      "background" : "gradient_cloudy",
+      "icon" : ""
+    },
+    "Rain": {
+      "unisex" : ["rain_boots","nylon_jacket","umbrella"],
+      "male" : [],
+      "female" : [],
+      "background" : "gradient_cloudy",
+      "icon" : ""
+    },
+    "Snow": {
+      "unisex" : ["wool_gloves","winter_hat","wool_boots"],
+      "male" : [],
+      "female" : [],
+      "background" : "gradient_cloudy",
+      "icon" : ""
+    },
+    "Clouds": {
+      "unisex" : ["hooded_jacket","sneaker"],
+      "male" : ["leather_biker_jacket"],
+      "female" : ["jewelry_set"],
+      "background" : "gradient_cloudy",
+      "icon" : ""
+    },
+    "Clear": {
+      "unisex" : [],
+      "male" : ["pilot_sunglasses","t_shirt_with_design","sneakers","chino_shorts"],
+      "female" : ["cocktail_dress","cat_eye_glasses","flat_shoes","hat"],
+      "background" : "@drawable/gradient_sunny",
+      "icon" : ""
+    },
+    "Thunderstorm": [],
+    "Fog": [],
+    "Mist": [],
+    "Smoke": [],
+    "Haze": [],
+    "Dust": [],
+    "Sand": [],
+    "Ash": [],
+    "Squall": [],
+    "Tornado": []
+  }
+}

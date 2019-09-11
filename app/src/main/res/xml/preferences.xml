@@ -1,0 +1,39 @@
+<androidx.preference.PreferenceScreen
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ListPreference
+            app:key="unit"
+            app:title="Unit"
+            app:entries="@array/Unit"
+            app:entryValues="@array/UnitData"
+            app:defaultValue="0"
+            app:useSimpleSummaryProvider="true"/>
+
+    <ListPreference
+            app:key="gender"
+            app:title="Gender"
+            app:entries="@array/Gender"
+            app:entryValues="@array/GenderData"
+            app:defaultValue="0"
+            app:useSimpleSummaryProvider="true"/>
+
+    <SwitchPreferenceCompat
+            app:key="notifications"
+            app:title="Enable notifications"/>
+
+    <SwitchPreferenceCompat
+            app:key="auto_location"
+            app:title="Automatic location"
+            app:defaultValue="true"
+    />
+
+    <Preference
+            app:key="set_location"
+            app:title="Set location"
+            app:summary="Newcastle"
+            app:isPreferenceVisible="false"/>
+
+    <Preference
+            app:key="about"
+            app:title="About"/>
+</androidx.preference.PreferenceScreen>
